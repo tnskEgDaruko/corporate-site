@@ -93,4 +93,23 @@ header {
     header .pc_navi {
       display: none; } }
 
+/* cover
+---------------------------------------------------------*/
+#cover_area {
+  text-align: center;
+  padding: 80px 0;
+  background-image: url("../images/top/cover.jpg");
+  background-size: cover; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    #cover_area {
+      background-image: url("../images/top/cover@2x.jpg"); } }
+  @media (min-width: 551px) {
+    #cover_area {
+      text-align: left;
+      height: 420px;
+      padding: 0; }
+      #cover_area img {
+        margin-top: 180px;
+        margin-left: 70px; } }
+
 /*# sourceMappingURL=sample.css.map */
