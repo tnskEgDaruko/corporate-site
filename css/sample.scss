@@ -446,7 +446,7 @@ h1 {
 
 /* NEWSpage
 ---------------------------------------------------------*/
-
+// news_cover
 #news_cover {
     
     text-align: center;
@@ -482,3 +482,109 @@ h1 {
     // min-width: 551px
 }
 // #news_cover
+
+
+// #news_contents
+#news_contents {
+    
+    padding-top: 20px;
+    
+    #main {
+        h2 {
+            color: $blue1;
+            border-bottom: 3px solid $blue1;
+            @include fontsize(15);
+            font-weight: bold;
+            padding-bottom: 15px;
+        }
+        
+        .news_li {
+            li {
+                list-style: none;
+                @include fontsize(15);
+                
+                span {
+                    color: $blue1;
+                    font-weight: bold;
+                    display: block;
+                    margin-bottom: 3px;
+                }
+            }
+            // li
+        }
+    }
+    
+    #sidebar {
+        .pc_sidemenu {
+            display: none;
+        }
+    }
+    
+    @media (min-width: 551px) {
+        
+        padding-top: 35px;
+        padding-bottom: 70px;
+        
+        #main {
+            .news_li {
+                
+                li {
+                    @include fontsize(15);
+                    margin-bottom: 20px;
+                    
+                    span {
+                        display: inline;
+                        margin-bottom: 0px;
+                        padding-right: 10px;
+                    }
+                }
+                // li
+            }
+            // .news_li
+        }
+        
+        #sidebar {
+            .pc_sidemenu {
+                display: block;
+                
+                h3 {
+                    color: $blue1;
+                    @include fontsize(14);
+                    letter-spacing: 0.2rem;
+                    font-weidht: bold;
+                    background-color: #f3f9fb;
+                    padding: 15px;
+                    margin-bottom: 0px;
+                }
+                
+                ul {
+                    li {
+                        list-style: none;
+                        border-bottom: 1px solid #e5e5e5;
+                        margin-bottom: 0px;
+                        padding: 10px 10px 10px 20px;
+                        
+                        background-image: url("../images/news/side_arrow.png");
+                        background-repeat: no-repeat;
+                        background-position: 8px center;
+
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    //retina_bg
+    @media screen and (-weblit-min-device-pixel-ratio: 2),
+                      (min-resolution: 2dppx) {
+                         #sidebar .pc_menu ul li {
+                              background-image: url("../images/news/side_arrow@2x.png");
+                         } 
+    }
+    //retina_bg
+    
+}
