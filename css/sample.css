@@ -94,7 +94,7 @@ header {
     header .pc_navi {
       display: none; } }
 
-/* cover
+/* cover_area
 ---------------------------------------------------------*/
 #cover_area {
   text-align: center;
@@ -113,7 +113,7 @@ header {
         margin-top: 180px;
         margin-left: 70px; } }
 
-/* service
+/* service_area
 ---------------------------------------------------------*/
 #service_area {
   padding-top: 20px; }
@@ -139,7 +139,7 @@ header {
         font-size: 13px;
         font-size: 1.3rem; } }
 
-/* news
+/* news_area
 ---------------------------------------------------------*/
 #news_area {
   background-color: #eaf2f4; }
@@ -249,5 +249,29 @@ footer {
 h1 {
   margin: 0;
   padding: 0; }
+
+/* NEWSpage
+---------------------------------------------------------*/
+#news_cover {
+  text-align: center;
+  padding: 40px 0;
+  background-image: url("../images/news/sub_cover.jpg");
+  background-size: cover; }
+  #news_cover h2 {
+    color: white;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin: 0 auto; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    #news_cover {
+      background-image: url("../images/news/sub_cover@2x.jpg"); } }
+  @media (min-width: 551px) {
+    #news_cover {
+      padding: 80px 0; }
+      #news_cover h2 {
+        font-size: 32px;
+        font-size: 3.2rem; } }
 
 /*# sourceMappingURL=sample.css.map */
