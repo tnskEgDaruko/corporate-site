@@ -47,6 +47,8 @@ header{
         padding: 0;
         display: none;
         
+        z-index: 100;
+        
         li {
             list-style: none;
             margin: 0;
@@ -436,3 +438,8 @@ footer {
     
 }
 // footer
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
