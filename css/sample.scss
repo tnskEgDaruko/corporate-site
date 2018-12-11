@@ -444,7 +444,7 @@ h1 {
     padding: 0;
 }
 
-/* NEWSpage
+/* NEWSpage COMPANYpage
 ---------------------------------------------------------*/
 // sub_cover
 #sub_cover {
@@ -481,7 +481,7 @@ h1 {
     }
     // min-width: 551px
 }
-// #news_cover
+// #sub_cover
 
 
 // #contents
@@ -499,6 +499,10 @@ h1 {
         padding-bottom: 15px;
     }
     
+    .company_title {
+        margin-bottom: 0;
+    }
+    
     .news_li {
         li {
             list-style: none;
@@ -514,6 +518,18 @@ h1 {
         // li
     }
     // .news_li
+    
+    th, td {
+        padding: 20px 0;
+        color: #626262;
+        @include fontsize(14);
+    }
+    
+    th {
+        padding-right: 20px;
+    }
+
+
 }
 // #main
     
@@ -536,6 +552,10 @@ h1 {
         h2 {
             @include fontsize(20);
             padding-bottom: 20px;
+            
+            .company_title {
+                margin-bottom: 0;
+            }
         }
         
         .news_li {
@@ -604,3 +624,4 @@ h1 {
                      } 
 }
 //retina_bg
+
