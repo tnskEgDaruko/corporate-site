@@ -59,7 +59,7 @@ header {
           color: #42b9d0; }
       header .pc_navi_li li.navi_toppage a {
         background-repeat: no-repeat;
-        display: include-block;
+        display: inline-block;
         line-height: 40px;
         padding-left: 50px;
         background-image: url("../images/top/navi_top.png");
@@ -70,7 +70,7 @@ header {
   @media (min-width: 551px) {
       header .pc_navi_li li.navi_news a {
         background-repeat: no-repeat;
-        display: include-block;
+        display: inline-block;
         line-height: 40px;
         padding-left: 50px;
         background-image: url("../images/top/navi_news.png");
@@ -81,7 +81,7 @@ header {
   @media (min-width: 551px) {
       header .pc_navi_li li.navi_company a {
         background-repeat: no-repeat;
-        display: include-block;
+        display: inline-block;
         line-height: 40px;
         padding-left: 50px;
         background-image: url("../images/top/navi_company.png");
@@ -232,7 +232,7 @@ footer {
           font-size: 11px;
           font-size: 1.1rem;
           background-image: url("../images/top/foot_arroehead.png");
-          background-size: 4ox 6px; } }
+          background-size: 4px 6px; } }
       @media screen and (min-width: 551px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 551px) and (min-resolution: 2dppx) {
         footer .foot_navi li {
           background-image: url("../images/top/foot_arroehead@2x.png"); } }

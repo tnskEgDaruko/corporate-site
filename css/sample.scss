@@ -101,7 +101,7 @@ header{
                 // retina_bg
                 
                 background-repeat: no-repeat;
-                display: include-block;
+                display: inline-block;
                 line-height: 40px;
                 padding-left: 50px;
                 
@@ -120,7 +120,7 @@ header{
                 // retina_bg
                 
                 background-repeat: no-repeat;
-                display: include-block;
+                display: inline-block;
                 line-height: 40px;
                 padding-left: 50px;
                 
@@ -139,7 +139,7 @@ header{
                 // retina_bg
                 
                 background-repeat: no-repeat;
-                display: include-block;
+                display: inline-block;
                 line-height: 40px;
                 padding-left: 50px;
                 
@@ -404,7 +404,7 @@ footer {
                 @include fontsize(11);
                 
                 background-image: url("../images/top/foot_arroehead.png");
-                background-size: 4ox 6px;
+                background-size: 4px 6px;
                 
                 // reting_bg
                 @media screen and (-webkit-min-device-pixel-ratio:2),
