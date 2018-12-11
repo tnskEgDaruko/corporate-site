@@ -55,7 +55,7 @@
             <!--container-->
         </header>
         
-        <div id="news_cover">
+        <div id="sub_cover">
             <div class="container">
                 <div class="row">
                     <div class="twelve columns">
@@ -66,7 +66,7 @@
         </div>
         <!--news_cover-->
         
-        <div id="news_contents">
+        <div id="contents">
             <div class="container">
                 <div class="row">
                     <div id="main" class="nine columns">
@@ -95,15 +95,55 @@
                         </div>
                         <!--pc_sidemenu-->
                         
-                        <div class="fb-page">
-                            FacebookのAPI表示が入る
-                        </div>
+                        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="180" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
                     </div>
                 </div>
             </div>
         </div>
         <footer>
-            
+            <div class="container">
+                <div class="row">
+                    <div class="four columns sp">
+                        <img class="u-max-full-width" src="images/top/footer_logo.png" alt="株式会社サンプル" srcset="images/top/footer_logo@2x.png 2x">
+                    </div>
+                    <!--columns-->
+                    
+                    <div class="four columns foot_address sp">
+                        〒000-0000<br>
+                        東京都〇〇区〇〇町560-0-0<br>
+                        03-0000-0000<br>
+                        info@xxxxxx.com
+                    </div>
+                    <!--columns-->
+                    
+                    <div class="four columns">
+                        <ul class="foot_navi">
+                            <li><a href="index.html">TOPページ</a></li>
+                            <li><a href="news.html">ニュースリリース</a></li>
+                            <li><a href="company.html">会社概要</a></li>
+                        </ul>
+                    </div>
+                    <!--columns-->
+
+                </div>
+                <!--row-->
+                <div class="row">
+                    <div class="twelve columns sp">
+                        <p class="copy">copyright (C) SampleCompany all rights reserved.</p>
+                    </div>
+                </div>
+                <!--row-->
+            </div>
         </footer>
+        <div id="fb-root"></div>
+        <script>
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2';
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
     </body>
 </html>
